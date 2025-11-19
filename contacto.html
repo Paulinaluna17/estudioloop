@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto | Estudio Loop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="imagenes/logoreal-loop.png" alt="Logo Estudio Loop">
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="index.html#servicios">Servicios</a>
+        <a href="index.html#trabajos">Trabajos</a>
+        <a href="index.html#reseñas">Reseñas</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+ <main>
+
+  <section id="contacto" class="bloque">
+    <div class="container contacto-layout">
+
+        <div class="contacto-forma">
+            <h1>Contacto</h1>
+            <p>Contame sobre tu marca, en qué etapa está y qué te gustaría trabajar. Te respondo con una propuesta pensada para vos.</p>
+
+       <form class="form-contacto"
+      action="https://formspree.io/f/mvglkeda"
+      method="POST">
+
+    <div class="campo">
+        <label for="nombre">Nombre y apellido</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </div>
+
+    <div class="campo">
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" required>
+    </div>
+
+    <div class="campo">
+        <label for="marca">Nombre de la marca / emprendimiento</label>
+        <input type="text" id="marca" name="marca">
+    </div>
+
+    <div class="campo">
+        <label for="interes">¿Qué te interesa trabajar?</label>
+        <select id="interes" name="interes" required>
+            <option value="" disabled selected>Elegí una opción</option>
+            <option value="estrategia">Estrategia y posicionamiento</option>
+            <option value="redes">Gestión de redes sociales</option>
+            <option value="contenido">Creación de contenido / UGC</option>
+            <option value="otro">Otro / A medida</option>
+        </select>
+    </div>
+
+    <div class="campo">
+        <label for="mensaje">Contame un poco más</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Ej: qué hace tu marca, hace cuánto existe, qué buscás, etc."></textarea>
+    </div>
+
+    <button type="submit" class="btn-primario">Enviar mensaje</button>
+</form>
+
+
+        </div>
+
+        <aside class="contacto-datos">
+            <h2>También podemos hablar por acá</h2>
+            <ul>
+                <li>📧 Mail: loopestudio360@gmail.com</li>
+                <li>📱 WhatsApp: 0387 15-473-7563</li>
+                <li>📸 Instagram: @loopestudio._</li>
+            </ul>
+            <p>Horarios de respuesta: lunes a viernes de 9 a 18 hs.</p>
+        </aside>
+
+    </div>
+</section>
+
+</main>
+
+
+  <footer class="site-footer">
+    <div class="container footer-flex">
+      <p>&copy; 2025 Estudio Loop · Comunicación Digital</p>
+      <p>Instagram: @loopestudio_ · WhatsApp: 0387 15-473-7563</p>
+    </div>
+  </footer>
+
+</body>
+</html>
